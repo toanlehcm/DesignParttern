@@ -1,12 +1,12 @@
 import './App.css';
-import FacadePattern from './lesson/FacadePattern';
-import FacadePatternReact from './lesson/FacadePattern/FacadePatternReact';
+import ProxyPattern from './lesson/ProxyPattern';
+import ProxyPatternReact from './lesson/ProxyPattern/ProxyPatternReact';
 
 function App() {
   return (
     <div className="App">
-      <FacadePattern />
-      <FacadePatternReact />
+      <ProxyPattern />
+      <ProxyPatternReact />
     </div>
   );
 }
