@@ -1,12 +1,10 @@
 import './App.css';
-import ObserverPattern from './lesson/ObserverPattern';
-import ObserverPatternReact from './lesson/ObserverPattern/ObserverReact';
+import FacadePattern from './lesson/FacadePattern';
 
 function App() {
   return (
     <div className="App">
-      <ObserverPattern />
-      <ObserverPatternReact />
+      <FacadePattern />
     </div>
   );
 }
