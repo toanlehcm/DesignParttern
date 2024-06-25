@@ -37,7 +37,7 @@ class ShopeeFacadePattern {
   }
 }
 
-export default function FacadePattern(params) {
+export default function FacadePattern() {
   function buy(price) {
     const shopee = new ShopeeFacadePattern()
     const total = shopee.calc(price)
