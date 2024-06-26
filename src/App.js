@@ -1,10 +1,10 @@
 import './App.css';
-import SingletonPattern from './lesson/SingletonPattern';
+import DesignVsSolid from './lesson/DesignVsSolid';
 
 function App() {
   return (
     <div className="App">
-      <SingletonPattern />
+      <DesignVsSolid />
     </div>
   );
 }
