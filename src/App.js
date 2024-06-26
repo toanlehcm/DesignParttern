@@ -1,12 +1,12 @@
 import './App.css';
-import ProxyPattern from './lesson/ProxyPattern';
-import ProxyPatternReact from './lesson/ProxyPattern/ProxyPatternReact';
+import SInSOLID from './lesson/SInSOLID';
+import SInSOLIDReact from './lesson/SInSOLID/SInSOLIDReact';
 
 function App() {
   return (
     <div className="App">
-      <ProxyPattern />
-      <ProxyPatternReact />
+      <SInSOLID />
+      <SInSOLIDReact />
     </div>
   );
 }
