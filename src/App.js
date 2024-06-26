@@ -1,10 +1,10 @@
 import './App.css';
-import BuilderPattern from './lesson/BuilderPattern';
+import AdapterPattern from './lesson/AdapterPattern';
 
 function App() {
   return (
     <div className="App">
-      <BuilderPattern />
+      <AdapterPattern />
     </div>
   );
 }
