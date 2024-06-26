@@ -1,12 +1,10 @@
 import './App.css';
-import FactoryMethodPattern from './lesson/FactoryPattern/FactoryMethodPattern';
-import SimpleFactoryPattern from './lesson/FactoryPattern/SimpleFactoryPattern';
+import SingletonPattern from './lesson/SingletonPattern';
 
 function App() {
   return (
     <div className="App">
-      <SimpleFactoryPattern />
-      <FactoryMethodPattern />
+      <SingletonPattern />
     </div>
   );
 }
