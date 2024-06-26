@@ -1,10 +1,10 @@
 import './App.css';
-import AdapterPattern from './lesson/AdapterPattern';
+import BridgePattern from './lesson/BridgePattern';
 
 function App() {
   return (
     <div className="App">
-      <AdapterPattern />
+      <BridgePattern />
     </div>
   );
 }
