@@ -41,9 +41,9 @@ class ServiceLogistics {
 }
 
 export default function SimpleFactoryPattern() {
-  console.log('Truck 0: ', serviceLogistics('20'));
-  console.log('Truck 10: ', ServiceLogistics.getTransport('10'));
-  console.log('Truck 20: ', ServiceLogistics.getTransport('20'));
+  // console.log('Truck 0: ', serviceLogistics('20'));
+  // console.log('Truck 10: ', ServiceLogistics.getTransport('10'));
+  // console.log('Truck 20: ', ServiceLogistics.getTransport('20'));
 
   return (<><div>Simple Factory Pattern</div></>)
 }
