@@ -1,10 +1,10 @@
 import './App.css';
-import DesignVsSolid from './lesson/DesignVsSolid';
+import OpenClosesPrinciple from './lesson/OpenClosesPrinciple';
 
 function App() {
   return (
     <div className="App">
-      <DesignVsSolid />
+      <OpenClosesPrinciple />
     </div>
   );
 }
