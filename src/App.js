@@ -1,10 +1,10 @@
 import './App.css';
-import PrototypePattern from './lesson/PrototypePattern';
+import BuilderPattern from './lesson/BuilderPattern';
 
 function App() {
   return (
     <div className="App">
-      <PrototypePattern />
+      <BuilderPattern />
     </div>
   );
 }
