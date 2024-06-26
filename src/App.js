@@ -1,12 +1,10 @@
 import './App.css';
-import SInSOLID from './lesson/SInSOLID';
-import SInSOLIDReact from './lesson/SInSOLID/SInSOLIDReact';
+import PrototypePattern from './lesson/PrototypePattern';
 
 function App() {
   return (
     <div className="App">
-      <SInSOLID />
-      <SInSOLIDReact />
+      <PrototypePattern />
     </div>
   );
 }

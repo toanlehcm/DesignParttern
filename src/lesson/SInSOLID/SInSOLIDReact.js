@@ -1,12 +1,7 @@
 function InitOrder() {
   const handleInitOrder = (userIDNumber) => {
-    return {
-      userID: userIDNumber,
-      timeOrder: Date.now(),
-      products: []
-    }
+    return { userID: userIDNumber, timeOrder: Date.now(), products: [] }
   }
-
   return { handleInitOrder }
 }
 
@@ -35,16 +30,10 @@ function OrderManager() {
       const orderSendMail = SendMailOrder()
       return orderSendMail.sendMail(order)
     }
-
     return
   }
 
-  return {
-    createOrder,
-    addProduct,
-    getOrder,
-    sendOrder
-  }
+  return { createOrder, addProduct, getOrder, sendOrder }
 }
 
 function SendMailOrder() {
