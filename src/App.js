@@ -1,10 +1,10 @@
 import './App.css';
-import BridgePattern from './lesson/BridgePattern';
+import SimpleFactoryPattern from './lesson/FactoryPattern/SimpleFactoryPattern';
 
 function App() {
   return (
     <div className="App">
-      <BridgePattern />
+      <SimpleFactoryPattern />
     </div>
   );
 }
